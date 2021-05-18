@@ -15,6 +15,6 @@ email.set_content('I\'m a unhatched programmer!')
 with smtplib.SMTP(host = 'smtp.gmail.com', port = 587) as smtp:
 	smtp.ehlo()
 	smtp.starttls()
-	smtp.login('aq.syed007@gmail.com', 'mySuperXecret@2021')
+	smtp.login('example@mail.com', '***********************')
 	smtp.send_message(email)
 	print('all good boss!')
