@@ -17,4 +17,4 @@ with smtplib.SMTP(host = 'smtp.gmail.com', port = 587) as smtp:
 	smtp.starttls()
 	smtp.login('example@mail.com', '***********************')
 	smtp.send_message(email)
-	print('all the best my boy.')
+	print('Its done. alright my dear friend.')
